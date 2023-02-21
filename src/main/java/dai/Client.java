@@ -3,7 +3,8 @@ package dai;
 import java.io.File;
 
 public class Client {
-//sssssssss
+//bengdi
+	//tian
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
 
