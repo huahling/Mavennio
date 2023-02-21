@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Client {
 //bengdi
-	//tian
+	//fang 主干
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
 
