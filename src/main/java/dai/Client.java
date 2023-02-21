@@ -3,7 +3,7 @@ package dai;
 import java.io.File;
 
 public class Client {
-//本地主干
+//gggggggggggggggg
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
 
