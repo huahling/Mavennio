@@ -3,7 +3,7 @@ package dai;
 import java.io.File;
 
 public class Client {
-	//github 更新
+
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
 
@@ -13,7 +13,7 @@ public class Client {
 	}
 
 	public static void sendFile(String filePath) throws Exception {
-		
+
 
 		while(true)
 		{
@@ -27,17 +27,17 @@ public class Client {
 			}
 		}
 		//1(mark--) 2 3 4 5     6 
-		
+
 		File file = new File(filePath);
 		if (file.isDirectory())// �ж��Ƿ�Ϊ�ļ���
 		{
 			//�����������Ŀ¼
 			if (!filePath.equals(basePath)) {
-				
+
 				mark++;
 				ClientThread client = new ClientThread(filePath);
 				client.start();
-				
+
 				client.join();
 				//ֱ�ӷ���
 			}
@@ -49,7 +49,7 @@ public class Client {
 		} else {
 			mark++;
 			new ClientThread(filePath).start();
-			
+
 			//ֱ�ӷ���
 		}
 	}
