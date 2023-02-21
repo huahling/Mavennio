@@ -4,7 +4,7 @@ import java.io.File;
 
 public class Client {
 //bengdi
-	//fang 主干合并分支测试
+	//fang 主干合并分支测试 分支
 	//主干测试冲突
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
@@ -41,9 +41,9 @@ public class Client {
 				client.start();
 
 				client.join();
-				//ֱ�ӷ���
+
 			}
-			//�ݹ�
+
 			String files []= file.list();
 			for (String fPath : files) {
 				sendFile(filePath + File.separator + fPath);
