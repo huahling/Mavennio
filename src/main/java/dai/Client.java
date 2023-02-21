@@ -5,6 +5,7 @@ import java.io.File;
 public class Client {
 	//bengdi
 	//fang 分支修改
+	//本地分支测试冲突
 	private static String basePath= "G:\\one\\";
 	public static int mark = 1;
 
